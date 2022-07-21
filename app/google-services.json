@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "608133156555",
+    "project_id": "my-appointo",
+    "storage_bucket": "my-appointo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:608133156555:android:2668a5323a2c074061d54e",
+        "android_client_info": {
+          "package_name": "com.example.myappointo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "608133156555-d8qfkgl67b0lijun5vnu50j5j4nuvsqi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHTgw2k2_S_YWZLd5Lus-R7tlcBmih1-Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "608133156555-d8qfkgl67b0lijun5vnu50j5j4nuvsqi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

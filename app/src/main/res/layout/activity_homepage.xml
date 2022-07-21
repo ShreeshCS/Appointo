@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Homepage"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#199E43CF"
+        android:padding="20dp">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/nav_icon" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/NewDateTaskBtnLL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/newDateTaskBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:contentDescription="newDateTask"
+            android:focusable="true"
+            android:onClick="createNewDateTask"
+            app:backgroundTint="#6DAF3EDF"
+            app:elevation="0dp"
+            app:srcCompat="@drawable/addtask" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif-medium"
+            android:text="Task for new date"
+            android:textAlignment="center"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/HScrollViewParentLL"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#79F6F5F6"
+        android:foregroundTint="#4FB448EF"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="horizontal">
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:animateLayoutChanges="true"
+            android:fillViewport="true"
+            tools:ignore="SpeakableTextPresentCheck">
+
+            <LinearLayout
+                android:id="@+id/parentLL"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="#00000000"
+                android:orientation="horizontal"/>
+
+        </HorizontalScrollView>
+
+    </LinearLayout>
+
+
+</LinearLayout>

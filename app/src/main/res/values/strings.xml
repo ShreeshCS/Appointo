@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">My Appointo</string>
+    <string name="loginText">Sign In/ Sign Up</string>
+    <string name="login_description">This is a mandatory step in order to keep track of appointments!</string>
+    <string name="login_buttonDescription">Proceed VIA OTP</string>
+    <string name="otpVerify">Verify OTP</string>
+    <string name="resetLogin">Edit number</string>
+    <string name="otp_hint">Enter OTP</string>
+    <string name="mainActivity_heading">Appointo</string>
+    <string name="today_card_head">TODAY</string>
+    <string name="addTaskDesc">Add Appointment</string>
+</resources>
